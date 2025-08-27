@@ -1,0 +1,178 @@
+.bh1 {
+  background-color: #ffc0cb;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  height: 100vh;
+
+    
+}
+.shinchan {
+    width: 200px;
+    transform: rotate(-5deg);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bh1 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bh1 h3 { 
+    font-weight: bold;
+    color: deeppink;
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
+
+.bh1 p {
+    margin: 0 015px;
+}
+   
+.bh1 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: deeppink;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+   
+}
+
+.bh1 a:hover {
+    background-color: lightgray;
+    transform: scale(1.05);
+}
+
+/*  halaman 2    */
+
+.bh2 { 
+   background: linear-gradient(135deg, #ffd1dc, #ffb6c1, #ffc0cb);
+     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.pesan {
+     width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.bh2 p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin: 0;
+}
+
+.bh2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.bh2 li a {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: deeppink;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+   
+}
+
+.bh2 li a:hover {
+   background-color: lightgray;
+}
+
+.bh3{
+    background: linear-gradient(135deg, #ffd1dc, #ffb6c1, #ffc0cb);
+     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.bh3 img {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.bh3 button{
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: deeppink;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+
+   
+}
+
+.bh3 button:hover {
+   background-color: rgb(169, 10, 10);
+}
+
+.surat{
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.meseg{
+  display: none;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff0f6;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px dashed #ff6699;
+  max-width: 250px;
+  margin: auto;
+}
+
+
+/* bunga*/
+.flower {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    to {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+    }
+  }

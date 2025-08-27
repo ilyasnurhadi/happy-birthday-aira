@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="flowe.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="b3">
+  <div class="container">
+  <div class="surat">
+    <img src="6fa4bd25-3582-43ab-ae26-04cc9d1c00f1.jpg" alt="Surat" class="gambar">
+    <p class="teks-bawah">Pesan rahasia menunggu...</p>
+  </div>
+
+  <div class="tombol-container">
+    <button class="btn">no</button>
+    <button class="btn" onclick="bukaSurat()">Open</button>
+  </div>
+
+  <!-- Kertas putih yang muncul saat tombol Open diklik -->
+  <div class="kertas" id="kertas">
+    <div class="isi-kertas">
+      <h2>Hapy Birthday Aira</h2>
+      <p> Semoga di umur kamu yang baru ini kamu selalu 
+      diberikan kesehatan, kebahagiaan dan kekuatan. Semoga <br>
+      hari-harimu ke depan selalu dipenuhi oleh orang-orang baik,<br>
+      momen-momen yang indah, dan hal-hal kecil yang bisa buat kamu bahagia dan tersenyum.
+      enjoy your special day, you totally deserve all the love and happiness today, i just
+      feel so grateful to have you in my life, and i hope this year brings you even more reasons to smile
+    </p>
+    </div>
+  </div>
+</div>
+<script>
+  function bukaSurat() {
+  document.getElementById("kertas").style.display = "flex";
+}
+</script>
+</body>
+</html>
